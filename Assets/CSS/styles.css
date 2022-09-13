@@ -68,6 +68,13 @@ body {
     width: 100%;
     height: 200px;
     object-fit: cover;
+    transition: transform .2s;
+}
+
+.image img:hover {
+    cursor: pointer;
+    box-shadow: #808080 0px 0px 10px;
+    transform: scale(1.1);
 }
 
 .card-txt {
